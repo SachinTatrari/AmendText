@@ -15,4 +15,4 @@ export default function Alert(props) {
 }</div>
   );
 }
-// In the above code you saw that I have put a curly brace after the first div, which is unusual. This is done because we used alert.type . 1stly alert state is "null", so alert.type becomes undefined because null has no type. So for that thing we had to make whole thing after 1st div as a javascript. So then we used AND(&&) operator and gave the command that, if alert.type  is not null then go for the further JSX code.
+// In the above code I have put a curly brace after the first div, which is unusual. This is done because we used alert.type . 1stly alert state is "null", so alert.type becomes undefined because null has no type. So for that thing we had to make whole thing after 1st div as a javascript. So then we used AND(&&) operator and gave the command that, if alert.type  is not null then go for the further JSX code.
